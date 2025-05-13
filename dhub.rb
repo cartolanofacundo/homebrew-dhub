@@ -1,12 +1,12 @@
 class Dhub < Formula
   desc "Directory Hub - Quick directory navigation tool"
-  homepage "https://github.com/fcartolano_meli/dhub"
+  homepage "https://github.com/cartolanofacundo/dhub-releases"
   version "1.0.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/fcartolano_meli/dhub/releases/download/v1.0.0/dhub-darwin-arm64"
+      url "https://github.com/cartolanofacundo/dhub-releases/releases/download/v1.0.0/dhub-darwin-arm64"
       sha256 "0b0670682f13f5af00019af24e614da29bf7403e2b9c3ccfb109205f2eee0387"
 
       def install
@@ -16,7 +16,7 @@ class Dhub < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/fcartolano_meli/dhub/releases/download/v1.0.0/dhub-darwin-amd64"
+      url "https://github.com/cartolanofacundo/dhub-releases/releases/download/v1.0.0/dhub-darwin-amd64"
       sha256 "9f9927183e9f91df94ab2c2bf78c999de995cb28ada49e40eb8932cf8e5724dd"
 
       def install
